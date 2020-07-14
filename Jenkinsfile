@@ -3,7 +3,7 @@
 // service to your git repository.
 
 
-@Library('JenkinsMain@2.16.33')_
+@Library('JenkinsMain@2.16.39')_
 
 pipelinePythonSCA(
     pythonVersion: '3.7',
