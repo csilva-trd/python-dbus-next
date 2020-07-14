@@ -10,6 +10,6 @@ pipelinePythonSCA(
     installFromSetup: false,
     runUnitTests: true,
     unitTestRunner: 'dbus-run-session py.test',
+    additionalAptPkgs: 'dbus-tests',
     packages: ["."],
-
 )
