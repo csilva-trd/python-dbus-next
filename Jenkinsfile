@@ -6,6 +6,7 @@
 @Library('JenkinsMain@2.16.39')_
 
 pipelinePythonSCA(
+    agentLabel: 'docker',
     pythonVersion: '3.7',
     installFromSetup: false,
     runUnitTests: true,
